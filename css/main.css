@@ -6,11 +6,11 @@
 }
 
 #container {
-    margin: 50px;
+    margin: 50px auto;
     width: 428px;
-    border: solid 1px rgb(51, 51, 51) ;
+    border: solid 1px #fb7200 ;
     border-radius: 10px;
-    background-color: #efefef;
+    background-color: #ffffff;
 }
 
 #main-content {
@@ -20,6 +20,7 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
 article{
     grid-column: 1/-1;
 
@@ -27,7 +28,7 @@ article{
 body{
     font-family: 'Sofia Sans', sans-serif;
     font-size: 20px;
-    font-weight: 100px;
+    font-weight: 100;
 }
 
 .hydrate-img {
@@ -76,8 +77,10 @@ h2 + p::first-letter {
     margin-right: 8px;
     box-shadow: 3px 3px 0 rgb(227, 245, 229);}
 h3{
+    color: #fb7200;
     font-size: 30px;
     letter-spacing: 2px;
+    text-align: center;
     
     
 }
